@@ -1,0 +1,39 @@
+[
+  {
+    "id": "srv-001",
+    "titulo": "Tutoría de Cálculo Diferencial",
+    "descripcion": "Refuerzo semanal para estudiantes de primer semestre de ingeniería, con talleres resueltos.",
+    "categoria": "Tutoría",
+    "oferenteId": "est-087",
+    "precioBase": { "monto": 25000, "moneda": "COP" },
+    "creadoEn": "2026-08-05T14:00:00Z",
+    "estado": { "tipo": "publicado", "publicadoEn": "2026-08-05T14:10:00Z" },
+    "palabrasClave": ["cálculo", "matemáticas", "ingeniería"]
+  },
+  {
+    "id": "srv-002",
+    "titulo": "Diseño de logo para proyecto de emprendimiento",
+    "descripcion": "Identidad visual básica: logo, paleta de colores y una variante para redes sociales.",
+    "categoria": "Diseño",
+    "oferenteId": "est-203",
+    "precioBase": { "monto": 40000, "moneda": "COP" },
+    "creadoEn": "2026-08-01T10:00:00Z",
+    "estado": {
+      "tipo": "contratado",
+      "estudianteId": "est-114",
+      "precioAcordado": { "monto": 35000, "moneda": "COP" },
+      "contratadoEn": "2026-08-03T09:00:00Z"
+    }
+  },
+  {
+    "id": "srv-003",
+    "titulo": "Transporte de materiales para proyecto de física",
+    "descripcion": "Traslado de maquetas y materiales entre bloques del campus el día de la sustentación.",
+    "categoria": "Logística",
+    "oferenteId": "est-045",
+    "precioBase": { "monto": 15000, "moneda": "COP" },
+    "creadoEn": "2026-07-20T08:00:00Z",
+    "estado": { "tipo": "cancelado", "motivo": "El oferente no llegó a tiempo." },
+    "palabrasClave": []
+  }
+]
